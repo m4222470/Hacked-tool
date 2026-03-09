@@ -1,0 +1,22 @@
+reconnaissance:
+  enabled: true
+  modules:
+    - fingerprinting
+    - subdomain_analysis
+
+scanning:
+  enabled: true
+  modules:
+    - port_scanner
+    - service_detector
+
+analysis:
+  enabled: true
+  modules:
+    - vulnerability_mapper
+    - scoring_engine
+
+integrations:
+  enabled: true
+  modules:
+    - external_connector

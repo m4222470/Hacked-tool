@@ -1,0 +1,7 @@
+level: INFO
+format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+file: output/logs/scan.log
+console_output: true
+file_output: true
+max_file_size: 10485760
+backup_count: 5

@@ -1,0 +1,8 @@
+scan_threads: 10
+timeout: 30
+log_level: INFO
+rate_limit: 10
+max_concurrent: 5
+verify_ssl: true
+proxy_enabled: false
+output_format: json
